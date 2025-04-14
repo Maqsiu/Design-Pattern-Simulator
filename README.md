@@ -1,2 +1,2 @@
 # Design-Pattern-Simulator
-The program simulates pendulum motion using numerical methods, calculates results at each time step, and displays them in a graphical interface or saves them to a text file.
+This program simulates the motion of a pendulum using numerical methods. It integrates the equations of motion using a specified solver method, such as the Euler method. The program takes initial conditions such as the final time, initial angle, and initial angular velocity. Results are computed at each time step and can be displayed in a graphical interface or written to a text file. Observers are notified about each step, allowing real-time updates of the system's state.
